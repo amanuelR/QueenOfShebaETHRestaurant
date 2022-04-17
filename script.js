@@ -1,4 +1,3 @@
-
 $(function () {
     $("#options").change(function () {
         if ($(this).val() == "option_one") {
