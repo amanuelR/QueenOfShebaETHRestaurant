@@ -1,4 +1,7 @@
-<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+var JQueryScript = document.createElement('script');
+JQueryScript.setAttribute('src', 'https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js');
+document.head.appendChild(JQueryScript);
+
 $(function () {
     $("#options").change(function () {
         if ($(this).val() == "option_one") {
