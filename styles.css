@@ -12,11 +12,16 @@ body {
   background-color: white;
   width: auto;
 }
+/*fixed position to show that the website is unofficial*/
 footer{
-  position: fixed;
+  justify-content: flex-end;
   left: 0;
   bottom: 0;
   width: 100%;
+}
+.clear{
+  clear:both;
+  height: 60px;
 }
 #frontImage {
   width:100%;
@@ -95,6 +100,15 @@ a:hover {
   display: flex;
   align-items: flex-end;
   transition: 0.4s ease-out;
+  box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.5);
+}
+.cardContact {
+  margin-bottom: 2%;
+  width: 300px;
+  height: 300px;
+  border-radius: 15px;
+  padding: 1.5rem;
+  display: flex;
   box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.5);
 }
 .card:hover {
